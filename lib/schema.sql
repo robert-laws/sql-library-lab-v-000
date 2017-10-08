@@ -25,3 +25,13 @@ CREATE TABLE `books` (
 	`series_id`	INTEGER,
 	PRIMARY KEY(`id`)
 );
+
+CREATE TABLE `characters` (
+	`id`	INTEGER,
+	`name`	TEXT,
+	`motto`	TEXT,
+	`species`	TEXT,
+	`author_id`	INTEGER,
+	`series_id`	INTEGER,
+	PRIMARY KEY(`id`)
+);
