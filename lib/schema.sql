@@ -11,3 +11,9 @@ CREATE TABLE `subgenres` (
 	`name`	TEXT,
 	PRIMARY KEY(`id`)
 );
+
+CREATE TABLE `authors` (
+	`id`	INTEGER,
+	`name`	TEXT,
+	PRIMARY KEY(`id`)
+);
