@@ -5,3 +5,9 @@ CREATE TABLE `series` (
 	`subgenre_id`	INTEGER,
 	PRIMARY KEY(`id`)
 );
+
+CREATE TABLE `subgenres` (
+	`id`	INTEGER,
+	`name`	TEXT,
+	PRIMARY KEY(`id`)
+);
