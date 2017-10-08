@@ -17,3 +17,11 @@ CREATE TABLE `authors` (
 	`name`	TEXT,
 	PRIMARY KEY(`id`)
 );
+
+CREATE TABLE `books` (
+	`id`	INTEGER,
+	`title`	TEXT,
+	`year`	INTEGER,
+	`series_id`	INTEGER,
+	PRIMARY KEY(`id`)
+);
