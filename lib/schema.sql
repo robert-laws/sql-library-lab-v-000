@@ -35,3 +35,10 @@ CREATE TABLE `characters` (
 	`series_id`	INTEGER,
 	PRIMARY KEY(`id`)
 );
+
+CREATE TABLE `character_books` (
+	`id`	INTEGER,
+	`character_id`	INTEGER,
+	`book_id`	INTEGER,
+	PRIMARY KEY(`id`)
+);
